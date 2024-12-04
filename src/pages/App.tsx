@@ -1,11 +1,13 @@
-import React from "react"
+import BodyLayout from '@/components/Layout/BodyLayout';
+import React from 'react';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div>
-      <h1>App</h1>
-    </div>
-  )
-}
+    <BodyLayout>
+<h1>hi</h1>
 
-export default App
+    </BodyLayout>
+  );
+};
+
+export default App;
